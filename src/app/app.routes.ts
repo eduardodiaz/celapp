@@ -23,11 +23,7 @@ const appRoutes: Routes = [
     },
     { path: 'register', component: RegisterComponent },
     { path: 'login', component: LoginComponent },
-    { path: '**', component: NopagefoundComponent },
-
-
-
-
+    { path: '**', component: NopagefoundComponent }
 ];
 
 export const APP_ROUTES = RouterModule.forRoot( appRoutes, { useHash: true } );
